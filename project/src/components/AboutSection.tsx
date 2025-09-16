@@ -1,5 +1,6 @@
 import React from 'react';
 import { FileText } from 'lucide-react';
+import headshotImage from '../assets/pp.jpg';
 
 interface AboutSectionProps {
   isDarkMode: boolean;
@@ -23,7 +24,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ isDarkMode }) => {
                 isDarkMode ? 'border-gray-700' : 'border-gray-100'
               }`}>
                 <img 
-                  src="src/assets/pp.jpg"
+                  src={headshotImage}
                   alt="Professional headshot" 
                   className="w-full h-auto"
                 />
