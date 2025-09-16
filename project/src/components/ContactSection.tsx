@@ -81,10 +81,9 @@ const ContactSection: React.FC<ContactSectionProps> = ({ isDarkMode }) => {
                   <div>
                     <p className="text-sm text-gray-500">Email</p>
                     <a 
-                      href="mailto:your.email@example.com" 
                       className="text-blue-600 hover:underline"
                     >
-                      your.email@example.com
+                      redietmesfin58@gmail.com
                     </a>
                   </div>
                 </div>
@@ -97,7 +96,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ isDarkMode }) => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Location</p>
-                    <p>San Francisco, CA</p>
+                    <p>Addis Ababa, Ethiopia</p>
                   </div>
                 </div>
               </div>
