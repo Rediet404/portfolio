@@ -40,7 +40,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ isDarkMode }) => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold mb-4">Hello, I'm Your Name</h3>
+              <h3 className="text-2xl font-bold mb-4">Hello, I'm Rediet</h3>
               <p className={`mb-6 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
                 I'm a full-stack developer with a passion for creating elegant, efficient, and user-friendly web applications. With over 5 years of experience in the industry, I've had the opportunity to work on a variety of projects from small startups to large enterprise applications.
               </p>
